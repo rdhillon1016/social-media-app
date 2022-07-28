@@ -45,8 +45,4 @@ exports.googleCallback = [
     successRedirect: 'http://localhost:3000/',
     session: true,
   }),
-  (req, res) => {
-    console.log('User', req.user);
-    res.send('thank you for signing in');
-  },
 ];

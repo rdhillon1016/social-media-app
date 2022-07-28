@@ -13,7 +13,6 @@ import Profile from "./components/Profile/Profile";
 import Friends from "./components/Friends/Friends";
 import Settings from "./components/Settings/Settings";
 import { React, useEffect, useState } from "react";
-import Cookies from "universal-cookie";
 
 function App() {
   const [userAuth, setuserAuth] = useState(false);
